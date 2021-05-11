@@ -1,0 +1,17 @@
+{
+  "name": "renturg",
+  "description": "For booking rooms for short days at very affordable prices ",
+  "version": "1.0.0",
+  "main": "",
+  "repository": "",
+  "author": "Abdul Sultan <arealsultan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon server/src/server.js",
+    "dev:website": "cd website && yarn start",
+    "dev:mobile": "cd mobile && yarn start"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
